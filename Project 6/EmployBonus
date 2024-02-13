@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    String name;
+    cout << "Enter employe's name:";
+    cin >> name;
+    int dv,numoft,numofs,points;
+    cout << "Enter employee’s transactions dollar value:";
+    cin >> dv;
+    cout << "Enter number of transactions:";
+    cin >> numoft;
+    cout << "Enter number of shifts worked: ";
+    cin >> nomofs;
+    points = (dv/numoft)/numofs;
+    cout << points;
+    return 0 ;
+}
