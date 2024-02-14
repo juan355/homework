@@ -10,4 +10,5 @@ int main(){
           cout<<"Multiplied by 10: "<<num*10<<"\n";
           num++;
     }
+    return 0;
 }
