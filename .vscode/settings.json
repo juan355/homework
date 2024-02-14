@@ -2,6 +2,7 @@
     "files.associations": {
         "bigtosmall": "c",
         "employbonus": "c",
-        "twoandten": "c"
+        "twoandten": "c",
+        "songscore": "c"
     }
 }
