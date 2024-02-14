@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "bigtosmall": "c"
+        "bigtosmall": "c",
+        "employbonus": "c"
     }
 }
