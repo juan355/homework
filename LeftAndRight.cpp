@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    string let;
+    int L = 0;
+    int R =0;
+    while(let != "X"){
+        cout <<"Enter an L if you are left-handed, an R if you are right-handed or X to quit: ";
+        cin >> let;
+        if(let == "R"){
+            R++;
+        }
+        if(let == "L"){
+            L++;
+        }
+    }
+    cout <<"Number of left-handed students: "<<L<<"\n";
+    cout << "Number of right-handed students: "<<R<<"\n";
+}
