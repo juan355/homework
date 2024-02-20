@@ -1,0 +1,40 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    string name[20];
+    int age[20];
+    char grade[20];
+    int num;
+    cout << "Please enter number of students";
+    cin >> num;
+    for(int i =0;i<num;i++){
+        cout <<"Enter name: ";
+        cin>> name[i];
+        cout << "Enter age: ";
+        cin >> age[i];
+        if(age[i]<0){
+            cout <<"Invaled age enter agin";
+            cout << "Enter age: ";
+            cin >> age[i];  
+        }
+        cout >>"Enter grade";
+        cin >> grade[i];
+        if(grade[i]!= "A"){
+            if(grade[i]!= "B"){
+            if(grade[i]!= "C"){
+            if(grade[i]!= "D"){
+            if(grade[i]!= "F"){
+            cout <<"Invaled grade enter agin";
+            cout << "Enter grade: ";
+            cin >> grade[i]; 
+            }
+            }
+            }
+            }
+        } 
+        
+    }
+
+}
