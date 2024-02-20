@@ -7,7 +7,7 @@ int main(){
     int age[20];
     char grade[20];
     int num;
-    cout << "Please enter number of students";
+    cout << "Please enter number of students: ";
     cin >> num;
     for(int i =0;i<num;i++){
         cout <<"Enter name: ";
@@ -15,7 +15,7 @@ int main(){
         cout << "Enter age: ";
         cin >> age[i];
         if(age[i]<0){
-            cout <<"Invaled age enter agin"<<"\n";
+            cout <<"Invaled age enter again"<<"\n";
             cout << "Enter age: ";
             cin >> age[i];  
         }
@@ -26,7 +26,7 @@ int main(){
             if(grade[i]!= 67){
             if(grade[i]!= 68){
             if(grade[i]!= 70){
-            cout <<"Invaled grade enter agin"<<"\n";
+            cout <<"Invaled grade enter again"<<"\n";
             cout << "Enter grade: ";
             cin >> grade[i]; 
             }
