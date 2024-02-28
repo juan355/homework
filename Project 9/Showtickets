@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+ discount(string answer) {
+    if(answer == Y){
+        cout << "You are pre-registered and qualify for a 5% discount.";
+    }
+     if(answer == N){
+        cout << "Sorry, you did not pre-register and do not qualify for a 5% discount.";
+    }
+ }
+
+int main(){
+cout << "Did you preregister? Enter Y or N: ";
+string answer;
+cin >> answer;
+discount(answer);
+}
