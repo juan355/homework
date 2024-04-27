@@ -1,0 +1,32 @@
+#include <iostream>
+
+using namespace std;
+class Car {
+  public:
+    string brand;   
+    string model;
+    int year;
+};
+class Pizzz{
+    public:
+    string toppings;
+    string style;
+    string sace;
+}
+class computer {
+    string brand;
+    int gigsofram;
+    int yearmade;
+    }
+void computer:: printBrand(string brand){
+    cout<< brand;
+}
+
+
+int main(){
+computer pc ;
+pc.brand = "Dell";
+pc.gigsofram = 16;
+pc.yearmade = 2020;
+pc.getBrand("Dell")
+}
